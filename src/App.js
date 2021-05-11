@@ -1,25 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import LottoGame from './LottoGame';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<LottoGame />
+			<LottoGame title="Mini Lotto" maxValue={10} numOfBalls={4} />
+			<LottoGame title="Match Three" maxValue={3} numOfBalls={3} />
+		</div>
+	);
 }
 
 export default App;

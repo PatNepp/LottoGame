@@ -1,0 +1,9 @@
+.LottoGame {
+	padding: 1em 0 2em 0;
+	border: 1em solid rgb(250, 188, 74);
+	border-radius: 10px;
+	text-align: center;
+	width: fit-content;
+	margin: auto;
+	margin-top: 1em;
+}
